@@ -1,0 +1,9 @@
+Adding new document...
+Added Document: {'name': 'Ocean Protocol', 'value': 7, 'valueMultiplier': 10, 'updatedData': 20210605}
+
+Modyfing document...
+Updated Document: {'name': 'Ocean Protocol', 'value': 15, 'valueMultiplier': 10, 'updatedData': 20210605}
+
+Deleting document...
+Deleted Document: None
+
