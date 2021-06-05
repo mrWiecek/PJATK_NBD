@@ -1,0 +1,442 @@
+MongoDB shell version v4.4.4
+connecting to: mongodb://127.0.0.1:27017/nbd?authSource=admin&compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("f063339b-ca79-4592-8d86-c355b73a741e") }
+MongoDB server version: 4.4.4
+{
+	"_batch" : [
+		{
+			"jobs" : [
+				"Librarian",
+				"Graphic Designer",
+				"Recruiting Manager",
+				"Help Desk Operator",
+				"Electrical Engineer",
+				"Quality Engineer",
+				"Research Assistant I",
+				"Research Assistant III",
+				"Programmer Analyst I",
+				"Senior Cost Accountant",
+				"Accounting Assistant II",
+				"Staff Accountant III",
+				"Human Resources Assistant IV",
+				"Safety Technician IV",
+				"Staff Accountant IV",
+				"Web Designer IV",
+				"Technical Writer",
+				"Staff Scientist",
+				"Programmer II",
+				"Web Developer IV",
+				"Product Engineer",
+				"Budget/Accounting Analyst II",
+				"Systems Administrator III",
+				"Civil Engineer",
+				"Software Engineer II",
+				"Staff Accountant I",
+				"Geologist II",
+				"Developer III",
+				"Programmer Analyst IV",
+				"Statistician II",
+				"Office Assistant IV",
+				"Account Representative I",
+				"Teacher",
+				"Operator",
+				"Nuclear Power Engineer",
+				"Actuary",
+				"Structural Analysis Engineer",
+				"Computer Systems Analyst IV",
+				"Biostatistician I",
+				"Social Worker",
+				"Accountant II",
+				"Office Assistant I",
+				"Health Coach I",
+				"Engineer I",
+				"Marketing Assistant",
+				"Database Administrator IV",
+				"Senior Developer",
+				"Budget/Accounting Analyst III",
+				"Account Representative II",
+				"Database Administrator III",
+				"Environmental Specialist",
+				"Web Developer I",
+				"Budget/Accounting Analyst IV",
+				"Geologist I",
+				"Safety Technician II",
+				"Media Manager IV",
+				"Financial Analyst",
+				"Assistant Manager",
+				"Compensation Analyst",
+				"Information Systems Manager",
+				"Financial Advisor",
+				"Systems Administrator IV",
+				"Administrative Assistant III",
+				"Software Engineer IV",
+				"Paralegal",
+				"Software Test Engineer IV",
+				"Account Representative IV",
+				"Web Developer II",
+				"Developer I",
+				"Senior Editor",
+				"Administrative Officer",
+				"Programmer I",
+				"GIS Technical Architect",
+				"Web Designer I",
+				"Automation Specialist III",
+				"Account Executive",
+				"Programmer Analyst III",
+				"Administrative Assistant II",
+				"Geologist III",
+				"Accounting Assistant IV",
+				"Software Engineer III",
+				"Cost Accountant",
+				"Pharmacist",
+				"Design Engineer",
+				"Safety Technician I",
+				"Payment Adjustment Coordinator",
+				"Accounting Assistant I",
+				"Senior Sales Associate",
+				"Staff Accountant II",
+				"Software Engineer I",
+				"Geologist IV",
+				"VP Sales",
+				"Senior Quality Engineer",
+				"Sales Representative",
+				"Programmer III",
+				"Business Systems Development Analyst",
+				"Computer Systems Analyst II",
+				"VP Product Management",
+				"Office Assistant III",
+				"VP Marketing",
+				"Nurse",
+				"Accounting Assistant III",
+				"Database Administrator I",
+				"Research Assistant IV",
+				"Assistant Professor",
+				"Account Coordinator",
+				"Computer Systems Analyst III",
+				"Health Coach III",
+				"Programmer Analyst II",
+				"Database Administrator II",
+				"Research Associate",
+				"Food Chemist",
+				"Desktop Support Technician",
+				"Computer Systems Analyst I",
+				"Engineer II",
+				"Health Coach II",
+				"Structural Engineer",
+				"Systems Administrator II",
+				"Chemical Engineer",
+				"Editor",
+				"Environmental Tech",
+				"Speech Pathologist",
+				"Human Resources Manager",
+				"Research Nurse",
+				"Biostatistician II",
+				"Legal Assistant",
+				"Marketing Manager",
+				"Office Assistant II",
+				"Associate Professor",
+				"Analyst Programmer",
+				"Statistician III",
+				"Account Representative III",
+				"Administrative Assistant I",
+				"Quality Control Specialist",
+				"Web Designer III",
+				"Automation Specialist IV",
+				"Accountant III",
+				"Senior Financial Analyst",
+				"Human Resources Assistant II",
+				"Biostatistician IV",
+				"Biostatistician III",
+				"Accountant I",
+				"Tax Accountant",
+				"Mechanical Systems Engineer",
+				"Recruiter",
+				"Developer IV",
+				"Junior Executive",
+				"Executive Secretary",
+				"VP Accounting",
+				"Safety Technician III",
+				"Administrative Assistant IV",
+				"Systems Administrator I",
+				"Internal Auditor",
+				"Media Manager II",
+				"Statistician IV",
+				"Occupational Therapist",
+				"Sales Associate",
+				"Chief Design Engineer",
+				"Assistant Media Planner",
+				"Web Developer III",
+				"Human Resources Assistant I",
+				"Accountant IV",
+				"Research Assistant II",
+				"Statistician I",
+				"Geological Engineer",
+				"Registered Nurse",
+				"Software Test Engineer III",
+				"Director of Sales",
+				"Engineer IV",
+				"Engineer III",
+				"Physical Therapy Assistant",
+				"Media Manager I",
+				"Help Desk Technician",
+				"Web Designer II",
+				"Clinical Specialist",
+				"Analog Circuit Design manager",
+				"Nurse Practicioner",
+				"Developer II",
+				"Health Coach IV",
+				"Automation Specialist I",
+				"Software Test Engineer II",
+				"Budget/Accounting Analyst I",
+				"Programmer IV",
+				"General Manager",
+				"Dental Hygienist",
+				"Project Manager",
+				"Software Test Engineer I",
+				"Human Resources Assistant III",
+				"Software Consultant",
+				"Media Manager III",
+				"Automation Specialist II",
+				"VP Quality Control",
+				"Data Coordiator",
+				"Community Outreach Specialist",
+				"Professor"
+			]
+		}
+	],
+	"_useReadCommands" : true,
+	"_cursorid" : NumberLong(0),
+	"_batchSize" : undefined,
+	"_maxAwaitTimeMS" : undefined,
+	"_txnNumber" : undefined,
+	"_ns" : "nbd.people",
+	"_db" : nbd,
+	"_collName" : "people",
+	"_cursorHandle" : {
+		
+	},
+	"isClosed" : function() {
+    if (this._useReadCommands) {
+        return bsonWoCompare({_: this._cursorid}, {_: NumberLong(0)}) === 0;
+    }
+    return this._cursor.isClosed();
+},
+	"isExhausted" : function() {
+    return this.isClosed() && this.objsLeftInBatch() === 0;
+},
+	"close" : function() {
+    if (!this._useReadCommands) {
+        this._cursor.close();
+    } else if (bsonWoCompare({_: this._cursorid}, {_: NumberLong(0)}) !== 0) {
+        var killCursorCmd = {
+            killCursors: this._collName,
+            cursors: [this._cursorid],
+        };
+        var cmdRes = this._db.runCommand(killCursorCmd);
+        if (cmdRes.ok != 1) {
+            throw _getErrorWithCode(cmdRes, "killCursors command failed: " + tojson(cmdRes));
+        }
+
+        this._cursorHandle.zeroCursorId();
+        this._cursorid = NumberLong(0);
+    }
+},
+	"_updatePostBatchResumeToken" : function(cursorObj) {
+    if (cursorObj.postBatchResumeToken) {
+        this._postBatchResumeToken = cursorObj.postBatchResumeToken;
+        if ((cursorObj.firstBatch || cursorObj.nextBatch).length === 0) {
+            this._resumeToken = this._postBatchResumeToken;
+        }
+        this._isChangeStream = true;
+    }
+},
+	"_runGetMoreCommand" : function() {
+    // Construct the getMore command.
+    var getMoreCmd = {getMore: this._cursorid, collection: this._collName};
+
+    if (this._batchSize) {
+        getMoreCmd["batchSize"] = this._batchSize;
+    }
+
+    // maxAwaitTimeMS is only supported when using read commands.
+    if (this._maxAwaitTimeMS) {
+        getMoreCmd.maxTimeMS = this._maxAwaitTimeMS;
+    }
+
+    if (this._txnNumber) {
+        getMoreCmd.txnNumber = NumberLong(this._txnNumber);
+        getMoreCmd.autocommit = false;
+    }
+
+    // Deliver the getMore command, and check for errors in the response.
+    var cmdRes = this._db.runCommand(getMoreCmd);
+    assert.commandWorked(cmdRes, () => "getMore command failed: " + tojson(cmdRes));
+
+    if (this._ns !== cmdRes.cursor.ns) {
+        throw Error("unexpected collection in getMore response: " + this._ns +
+                    " != " + cmdRes.cursor.ns);
+    }
+
+    if (!cmdRes.cursor.id.compare(NumberLong("0"))) {
+        this._cursorHandle.zeroCursorId();
+        this._cursorid = NumberLong("0");
+    } else if (this._cursorid.compare(cmdRes.cursor.id)) {
+        throw Error("unexpected cursor id: " + this._cursorid.toString() +
+                    " != " + cmdRes.cursor.id.toString());
+    }
+
+    // If the command result represents a change stream cursor, update our postBatchResumeToken.
+    this._updatePostBatchResumeToken(cmdRes.cursor);
+
+    // Successfully retrieved the next batch.
+    this._batch = cmdRes.cursor.nextBatch.reverse();
+},
+	"_hasNextUsingCommands" : function() {
+    assert(this._useReadCommands);
+
+    if (!this._batch.length) {
+        if (!this._cursorid.compare(NumberLong("0"))) {
+            return false;
+        }
+
+        this._runGetMoreCommand();
+    }
+
+    return this._batch.length > 0;
+},
+	"hasNext" : function() {
+    if (this._useReadCommands) {
+        return this._hasNextUsingCommands();
+    }
+
+    return this._batch.length || this._cursor.hasNext();
+},
+	"next" : function() {
+    if (this._batch.length) {
+        // Pop the next result off the batch.
+        const nextDoc = this._batch.pop();
+        if (this._isChangeStream) {
+            // If this is the last result in the batch, the postBatchResumeToken becomes the current
+            // resume token for the cursor. Otherwise, the resume token is the _id of 'nextDoc'.
+            this._resumeToken = (this._batch.length ? nextDoc._id : this._postBatchResumeToken);
+        }
+        return nextDoc;
+    } else if (this._useReadCommands) {
+        // Have to call hasNext() here, as this is where we may issue a getMore in order to retrieve
+        // the next batch of results.
+        if (!this.hasNext())
+            throw Error("error hasNext: false");
+        return this._batch.pop();
+    } else {
+        if (!this._cursor.hasNext())
+            throw Error("error hasNext: false");
+
+        var ret = this._cursor.next();
+        if (ret.$err)
+            throw _getErrorWithCode(ret, "error: " + tojson(ret));
+        return ret;
+    }
+},
+	"objsLeftInBatch" : function() {
+    if (this._useReadCommands) {
+        return this._batch.length;
+    } else if (this._batch.length) {
+        return this._batch.length;
+    } else {
+        return this._cursor.objsLeftInBatch();
+    }
+},
+	"getId" : function() {
+    return this._cursorid;
+},
+	"getResumeToken" : function() {
+    // Return the most recent recorded resume token, if such a token exists.
+    return this._resumeToken;
+},
+	"help" : function() {
+    // This is the same as the "Cursor Methods" section of DBQuery.help().
+    print("\nCursor methods");
+    print("\t.toArray() - iterates through docs and returns an array of the results");
+    print("\t.forEach( func )");
+    print("\t.map( func )");
+    print("\t.hasNext()");
+    print("\t.next()");
+    print(
+        "\t.objsLeftInBatch() - returns count of docs left in current batch (when exhausted, a new getMore will be issued)");
+    print("\t.itcount() - iterates through documents and counts them");
+    print(
+        "\t.getResumeToken() - for a change stream cursor, obtains the most recent valid resume token, if it exists.");
+    print("\t.pretty() - pretty print each document, possibly over multiple lines");
+    print("\t.close()");
+},
+	"toArray" : function() {
+    if (this._arr)
+        return this._arr;
+
+    var a = [];
+    while (this.hasNext())
+        a.push(this.next());
+    this._arr = a;
+    return a;
+},
+	"forEach" : function(func) {
+    while (this.hasNext())
+        func(this.next());
+},
+	"map" : function(func) {
+    var a = [];
+    while (this.hasNext())
+        a.push(func(this.next()));
+    return a;
+},
+	"itcount" : function() {
+    var num = 0;
+
+    // Track how many bytes we've used this cursor to iterate iterated.  This function can be called
+    // with some very large cursors.  SpiderMonkey appears happy to allow these objects to
+    // accumulate, so regular gc() avoids an overly large memory footprint.
+    //
+    // TODO: migrate this function into c++
+    var bytesSinceGC = 0;
+
+    while (this.hasNext()) {
+        num++;
+        var nextDoc = this.next();
+        bytesSinceGC += Object.bsonsize(nextDoc);
+
+        // Garbage collect every 10 MB.
+        if (bytesSinceGC > (10 * 1024 * 1024)) {
+            bytesSinceGC = 0;
+            gc();
+        }
+    }
+    return num;
+},
+	"shellPrint" : function() {
+    try {
+        var start = new Date().getTime();
+        var n = 0;
+        while (this.hasNext() && n < DBQuery.shellBatchSize) {
+            var s = this._prettyShell ? tojson(this.next()) : tojson(this.next(), "", true);
+            print(s);
+            n++;
+        }
+        if (typeof _verboseShell !== 'undefined' && _verboseShell) {
+            var time = new Date().getTime() - start;
+            print("Fetched " + n + " record(s) in " + time + "ms");
+        }
+        if (this.hasNext()) {
+            print("Type \"it\" for more");
+            ___it___ = this;
+        } else {
+            ___it___ = null;
+        }
+    } catch (e) {
+        print(e);
+    }
+},
+	"pretty" : function() {
+    this._prettyShell = true;
+    return this;
+}
+}

@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8H0tiDE/vvz+BgUFdJIMpkTGPlSH7gf4tviwA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s23433>; rel="up"
+Last-Modified: Sat, 05 Jun 2021 11:47:55 GMT
+ETag: "7irUoJLWoCozgpu1FiR2Iv"
+Date: Sat, 05 Jun 2021 11:51:27 GMT
+Content-Type: application/json
+Content-Length: 77
+
+{"name":"Enjin", "value": 25, "valueMultiplier": 10, "updatedData": 20210506}

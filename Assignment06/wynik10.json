@@ -1,0 +1,90 @@
+﻿[
+  {
+    "paths": {
+"start": {
+"identity": 223,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "MSN"
+        }
+      },
+"end": {
+"identity": 270,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "GRR"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 223,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSN"
+            }
+          },
+          "relationship": {
+"identity": 3539,
+"start": 223,
+"end": 209,
+"type": "ROUTE",
+"properties": {
+"airline": "19977",
+"class": "economy",
+"price": 88.5
+            }
+          },
+          "end": {
+"identity": 209,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 209,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 4212,
+"start": 209,
+"end": 270,
+"type": "ROUTE",
+"properties": {
+"airline": "20304",
+"class": "economy",
+"price": 108.0
+            }
+          },
+          "end": {
+"identity": 270,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "GRR"
+            }
+          }
+        }
+      ],
+"length": 2.0
+    },
+    "total": 196.5
+  }
+]

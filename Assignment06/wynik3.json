@@ -1,0 +1,6926 @@
+﻿[
+  {
+    "distance": 32,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 276,
+"start": 193,
+"end": 198,
+"type": "trek",
+"properties": {
+"name": "Darjeeling-Tumbling",
+"winter": "true",
+"distance": 10,
+"summer": "false"
+            }
+          },
+          "end": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          },
+          "relationship": {
+"identity": 278,
+"start": 198,
+"end": 199,
+"type": "trek",
+"properties": {
+"name": "Tumbling-Gairibus",
+"winter": "true",
+"distance": 8,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          },
+          "relationship": {
+"identity": 282,
+"start": 199,
+"end": 194,
+"type": "trek",
+"properties": {
+"name": "Gairibus-BhikeBhanja",
+"winter": "true",
+"distance": 10,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 269,
+"start": 194,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 32,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 277,
+"start": 193,
+"end": 198,
+"type": "road",
+"properties": {
+"name": "Darjeeling-Tumbling",
+"winter": "true",
+"distance": 10,
+"summer": "false"
+            }
+          },
+          "end": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          },
+          "relationship": {
+"identity": 278,
+"start": 198,
+"end": 199,
+"type": "trek",
+"properties": {
+"name": "Tumbling-Gairibus",
+"winter": "true",
+"distance": 8,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          },
+          "relationship": {
+"identity": 282,
+"start": 199,
+"end": 194,
+"type": "trek",
+"properties": {
+"name": "Gairibus-BhikeBhanja",
+"winter": "true",
+"distance": 10,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 269,
+"start": 194,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 32,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 276,
+"start": 193,
+"end": 198,
+"type": "trek",
+"properties": {
+"name": "Darjeeling-Tumbling",
+"winter": "true",
+"distance": 10,
+"summer": "false"
+            }
+          },
+          "end": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          },
+          "relationship": {
+"identity": 279,
+"start": 198,
+"end": 199,
+"type": "road",
+"properties": {
+"name": "Tumbling-Gairibus",
+"winter": "true",
+"distance": 8,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          },
+          "relationship": {
+"identity": 282,
+"start": 199,
+"end": 194,
+"type": "trek",
+"properties": {
+"name": "Gairibus-BhikeBhanja",
+"winter": "true",
+"distance": 10,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 269,
+"start": 194,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 32,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 277,
+"start": 193,
+"end": 198,
+"type": "road",
+"properties": {
+"name": "Darjeeling-Tumbling",
+"winter": "true",
+"distance": 10,
+"summer": "false"
+            }
+          },
+          "end": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          },
+          "relationship": {
+"identity": 279,
+"start": 198,
+"end": 199,
+"type": "road",
+"properties": {
+"name": "Tumbling-Gairibus",
+"winter": "true",
+"distance": 8,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          },
+          "relationship": {
+"identity": 282,
+"start": 199,
+"end": 194,
+"type": "trek",
+"properties": {
+"name": "Gairibus-BhikeBhanja",
+"winter": "true",
+"distance": 10,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 269,
+"start": 194,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 32,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 276,
+"start": 193,
+"end": 198,
+"type": "trek",
+"properties": {
+"name": "Darjeeling-Tumbling",
+"winter": "true",
+"distance": 10,
+"summer": "false"
+            }
+          },
+          "end": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          },
+          "relationship": {
+"identity": 280,
+"start": 198,
+"end": 199,
+"type": "twowheeler",
+"properties": {
+"name": "Tumbling-Gairibus",
+"winter": "true",
+"distance": 8,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          },
+          "relationship": {
+"identity": 282,
+"start": 199,
+"end": 194,
+"type": "trek",
+"properties": {
+"name": "Gairibus-BhikeBhanja",
+"winter": "true",
+"distance": 10,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 269,
+"start": 194,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 32,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 277,
+"start": 193,
+"end": 198,
+"type": "road",
+"properties": {
+"name": "Darjeeling-Tumbling",
+"winter": "true",
+"distance": 10,
+"summer": "false"
+            }
+          },
+          "end": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          },
+          "relationship": {
+"identity": 280,
+"start": 198,
+"end": 199,
+"type": "twowheeler",
+"properties": {
+"name": "Tumbling-Gairibus",
+"winter": "true",
+"distance": 8,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          },
+          "relationship": {
+"identity": 282,
+"start": 199,
+"end": 194,
+"type": "trek",
+"properties": {
+"name": "Gairibus-BhikeBhanja",
+"winter": "true",
+"distance": 10,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 269,
+"start": 194,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 32,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 276,
+"start": 193,
+"end": 198,
+"type": "trek",
+"properties": {
+"name": "Darjeeling-Tumbling",
+"winter": "true",
+"distance": 10,
+"summer": "false"
+            }
+          },
+          "end": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          },
+          "relationship": {
+"identity": 278,
+"start": 198,
+"end": 199,
+"type": "trek",
+"properties": {
+"name": "Tumbling-Gairibus",
+"winter": "true",
+"distance": 8,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          },
+          "relationship": {
+"identity": 284,
+"start": 199,
+"end": 194,
+"type": "twowheeler",
+"properties": {
+"name": "Gairibus-BhikeBhanja",
+"winter": "true",
+"distance": 10,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 269,
+"start": 194,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 32,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 277,
+"start": 193,
+"end": 198,
+"type": "road",
+"properties": {
+"name": "Darjeeling-Tumbling",
+"winter": "true",
+"distance": 10,
+"summer": "false"
+            }
+          },
+          "end": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          },
+          "relationship": {
+"identity": 278,
+"start": 198,
+"end": 199,
+"type": "trek",
+"properties": {
+"name": "Tumbling-Gairibus",
+"winter": "true",
+"distance": 8,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          },
+          "relationship": {
+"identity": 284,
+"start": 199,
+"end": 194,
+"type": "twowheeler",
+"properties": {
+"name": "Gairibus-BhikeBhanja",
+"winter": "true",
+"distance": 10,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 269,
+"start": 194,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 32,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 276,
+"start": 193,
+"end": 198,
+"type": "trek",
+"properties": {
+"name": "Darjeeling-Tumbling",
+"winter": "true",
+"distance": 10,
+"summer": "false"
+            }
+          },
+          "end": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          },
+          "relationship": {
+"identity": 279,
+"start": 198,
+"end": 199,
+"type": "road",
+"properties": {
+"name": "Tumbling-Gairibus",
+"winter": "true",
+"distance": 8,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          },
+          "relationship": {
+"identity": 284,
+"start": 199,
+"end": 194,
+"type": "twowheeler",
+"properties": {
+"name": "Gairibus-BhikeBhanja",
+"winter": "true",
+"distance": 10,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 269,
+"start": 194,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 32,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 277,
+"start": 193,
+"end": 198,
+"type": "road",
+"properties": {
+"name": "Darjeeling-Tumbling",
+"winter": "true",
+"distance": 10,
+"summer": "false"
+            }
+          },
+          "end": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          },
+          "relationship": {
+"identity": 279,
+"start": 198,
+"end": 199,
+"type": "road",
+"properties": {
+"name": "Tumbling-Gairibus",
+"winter": "true",
+"distance": 8,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          },
+          "relationship": {
+"identity": 284,
+"start": 199,
+"end": 194,
+"type": "twowheeler",
+"properties": {
+"name": "Gairibus-BhikeBhanja",
+"winter": "true",
+"distance": 10,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 269,
+"start": 194,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 32,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 276,
+"start": 193,
+"end": 198,
+"type": "trek",
+"properties": {
+"name": "Darjeeling-Tumbling",
+"winter": "true",
+"distance": 10,
+"summer": "false"
+            }
+          },
+          "end": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          },
+          "relationship": {
+"identity": 280,
+"start": 198,
+"end": 199,
+"type": "twowheeler",
+"properties": {
+"name": "Tumbling-Gairibus",
+"winter": "true",
+"distance": 8,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          },
+          "relationship": {
+"identity": 284,
+"start": 199,
+"end": 194,
+"type": "twowheeler",
+"properties": {
+"name": "Gairibus-BhikeBhanja",
+"winter": "true",
+"distance": 10,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 269,
+"start": 194,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 32,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 277,
+"start": 193,
+"end": 198,
+"type": "road",
+"properties": {
+"name": "Darjeeling-Tumbling",
+"winter": "true",
+"distance": 10,
+"summer": "false"
+            }
+          },
+          "end": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          },
+          "relationship": {
+"identity": 280,
+"start": 198,
+"end": 199,
+"type": "twowheeler",
+"properties": {
+"name": "Tumbling-Gairibus",
+"winter": "true",
+"distance": 8,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          },
+          "relationship": {
+"identity": 284,
+"start": 199,
+"end": 194,
+"type": "twowheeler",
+"properties": {
+"name": "Gairibus-BhikeBhanja",
+"winter": "true",
+"distance": 10,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 269,
+"start": 194,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 32,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 276,
+"start": 193,
+"end": 198,
+"type": "trek",
+"properties": {
+"name": "Darjeeling-Tumbling",
+"winter": "true",
+"distance": 10,
+"summer": "false"
+            }
+          },
+          "end": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          },
+          "relationship": {
+"identity": 278,
+"start": 198,
+"end": 199,
+"type": "trek",
+"properties": {
+"name": "Tumbling-Gairibus",
+"winter": "true",
+"distance": 8,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          },
+          "relationship": {
+"identity": 283,
+"start": 199,
+"end": 194,
+"type": "road",
+"properties": {
+"name": "Gairibus-BhikeBhanja",
+"winter": "true",
+"distance": 10,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 269,
+"start": 194,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 32,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 277,
+"start": 193,
+"end": 198,
+"type": "road",
+"properties": {
+"name": "Darjeeling-Tumbling",
+"winter": "true",
+"distance": 10,
+"summer": "false"
+            }
+          },
+          "end": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          },
+          "relationship": {
+"identity": 278,
+"start": 198,
+"end": 199,
+"type": "trek",
+"properties": {
+"name": "Tumbling-Gairibus",
+"winter": "true",
+"distance": 8,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          },
+          "relationship": {
+"identity": 283,
+"start": 199,
+"end": 194,
+"type": "road",
+"properties": {
+"name": "Gairibus-BhikeBhanja",
+"winter": "true",
+"distance": 10,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 269,
+"start": 194,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 32,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 276,
+"start": 193,
+"end": 198,
+"type": "trek",
+"properties": {
+"name": "Darjeeling-Tumbling",
+"winter": "true",
+"distance": 10,
+"summer": "false"
+            }
+          },
+          "end": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          },
+          "relationship": {
+"identity": 279,
+"start": 198,
+"end": 199,
+"type": "road",
+"properties": {
+"name": "Tumbling-Gairibus",
+"winter": "true",
+"distance": 8,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          },
+          "relationship": {
+"identity": 283,
+"start": 199,
+"end": 194,
+"type": "road",
+"properties": {
+"name": "Gairibus-BhikeBhanja",
+"winter": "true",
+"distance": 10,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 269,
+"start": 194,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 32,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 277,
+"start": 193,
+"end": 198,
+"type": "road",
+"properties": {
+"name": "Darjeeling-Tumbling",
+"winter": "true",
+"distance": 10,
+"summer": "false"
+            }
+          },
+          "end": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          },
+          "relationship": {
+"identity": 279,
+"start": 198,
+"end": 199,
+"type": "road",
+"properties": {
+"name": "Tumbling-Gairibus",
+"winter": "true",
+"distance": 8,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          },
+          "relationship": {
+"identity": 283,
+"start": 199,
+"end": 194,
+"type": "road",
+"properties": {
+"name": "Gairibus-BhikeBhanja",
+"winter": "true",
+"distance": 10,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 269,
+"start": 194,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 32,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 276,
+"start": 193,
+"end": 198,
+"type": "trek",
+"properties": {
+"name": "Darjeeling-Tumbling",
+"winter": "true",
+"distance": 10,
+"summer": "false"
+            }
+          },
+          "end": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          },
+          "relationship": {
+"identity": 280,
+"start": 198,
+"end": 199,
+"type": "twowheeler",
+"properties": {
+"name": "Tumbling-Gairibus",
+"winter": "true",
+"distance": 8,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          },
+          "relationship": {
+"identity": 283,
+"start": 199,
+"end": 194,
+"type": "road",
+"properties": {
+"name": "Gairibus-BhikeBhanja",
+"winter": "true",
+"distance": 10,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 269,
+"start": 194,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 32,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 277,
+"start": 193,
+"end": 198,
+"type": "road",
+"properties": {
+"name": "Darjeeling-Tumbling",
+"winter": "true",
+"distance": 10,
+"summer": "false"
+            }
+          },
+          "end": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 198,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Tumbling"
+            }
+          },
+          "relationship": {
+"identity": 280,
+"start": 198,
+"end": 199,
+"type": "twowheeler",
+"properties": {
+"name": "Tumbling-Gairibus",
+"winter": "true",
+"distance": 8,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 199,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gairibus"
+            }
+          },
+          "relationship": {
+"identity": 283,
+"start": 199,
+"end": 194,
+"type": "road",
+"properties": {
+"name": "Gairibus-BhikeBhanja",
+"winter": "true",
+"distance": 10,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 269,
+"start": 194,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 266,
+"start": 193,
+"end": 192,
+"type": "road",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 268,
+"start": 192,
+"end": 194,
+"type": "trek",
+"properties": {
+"name": "Rimbik-BhikeBhanja",
+"winter": "true",
+"distance": 18,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 269,
+"start": 194,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 3.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 267,
+"start": 193,
+"end": 192,
+"type": "trek",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 268,
+"start": 192,
+"end": 194,
+"type": "trek",
+"properties": {
+"name": "Rimbik-BhikeBhanja",
+"winter": "true",
+"distance": 18,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 269,
+"start": 194,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 3.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 265,
+"start": 193,
+"end": 192,
+"type": "PublicTransport",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 268,
+"start": 192,
+"end": 194,
+"type": "trek",
+"properties": {
+"name": "Rimbik-BhikeBhanja",
+"winter": "true",
+"distance": 18,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 194,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 269,
+"start": 194,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 3.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 266,
+"start": 193,
+"end": 192,
+"type": "road",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 270,
+"start": 192,
+"end": 196,
+"type": "trek",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 273,
+"start": 196,
+"end": 197,
+"type": "twowheeler",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 275,
+"start": 197,
+"end": 195,
+"type": "twowheeler",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 267,
+"start": 193,
+"end": 192,
+"type": "trek",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 270,
+"start": 192,
+"end": 196,
+"type": "trek",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 273,
+"start": 196,
+"end": 197,
+"type": "twowheeler",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 275,
+"start": 197,
+"end": 195,
+"type": "twowheeler",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 265,
+"start": 193,
+"end": 192,
+"type": "PublicTransport",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 270,
+"start": 192,
+"end": 196,
+"type": "trek",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 273,
+"start": 196,
+"end": 197,
+"type": "twowheeler",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 275,
+"start": 197,
+"end": 195,
+"type": "twowheeler",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 266,
+"start": 193,
+"end": 192,
+"type": "road",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 271,
+"start": 192,
+"end": 196,
+"type": "twowheeler",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 273,
+"start": 196,
+"end": 197,
+"type": "twowheeler",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 275,
+"start": 197,
+"end": 195,
+"type": "twowheeler",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 267,
+"start": 193,
+"end": 192,
+"type": "trek",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 271,
+"start": 192,
+"end": 196,
+"type": "twowheeler",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 273,
+"start": 196,
+"end": 197,
+"type": "twowheeler",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 275,
+"start": 197,
+"end": 195,
+"type": "twowheeler",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 265,
+"start": 193,
+"end": 192,
+"type": "PublicTransport",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 271,
+"start": 192,
+"end": 196,
+"type": "twowheeler",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 273,
+"start": 196,
+"end": 197,
+"type": "twowheeler",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 275,
+"start": 197,
+"end": 195,
+"type": "twowheeler",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 266,
+"start": 193,
+"end": 192,
+"type": "road",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 270,
+"start": 192,
+"end": 196,
+"type": "trek",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 272,
+"start": 196,
+"end": 197,
+"type": "trek",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 275,
+"start": 197,
+"end": 195,
+"type": "twowheeler",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 267,
+"start": 193,
+"end": 192,
+"type": "trek",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 270,
+"start": 192,
+"end": 196,
+"type": "trek",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 272,
+"start": 196,
+"end": 197,
+"type": "trek",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 275,
+"start": 197,
+"end": 195,
+"type": "twowheeler",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 265,
+"start": 193,
+"end": 192,
+"type": "PublicTransport",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 270,
+"start": 192,
+"end": 196,
+"type": "trek",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 272,
+"start": 196,
+"end": 197,
+"type": "trek",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 275,
+"start": 197,
+"end": 195,
+"type": "twowheeler",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 266,
+"start": 193,
+"end": 192,
+"type": "road",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 271,
+"start": 192,
+"end": 196,
+"type": "twowheeler",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 272,
+"start": 196,
+"end": 197,
+"type": "trek",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 275,
+"start": 197,
+"end": 195,
+"type": "twowheeler",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 267,
+"start": 193,
+"end": 192,
+"type": "trek",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 271,
+"start": 192,
+"end": 196,
+"type": "twowheeler",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 272,
+"start": 196,
+"end": 197,
+"type": "trek",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 275,
+"start": 197,
+"end": 195,
+"type": "twowheeler",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 265,
+"start": 193,
+"end": 192,
+"type": "PublicTransport",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 271,
+"start": 192,
+"end": 196,
+"type": "twowheeler",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 272,
+"start": 196,
+"end": 197,
+"type": "trek",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 275,
+"start": 197,
+"end": 195,
+"type": "twowheeler",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 266,
+"start": 193,
+"end": 192,
+"type": "road",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 270,
+"start": 192,
+"end": 196,
+"type": "trek",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 273,
+"start": 196,
+"end": 197,
+"type": "twowheeler",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 274,
+"start": 197,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 267,
+"start": 193,
+"end": 192,
+"type": "trek",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 270,
+"start": 192,
+"end": 196,
+"type": "trek",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 273,
+"start": 196,
+"end": 197,
+"type": "twowheeler",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 274,
+"start": 197,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 265,
+"start": 193,
+"end": 192,
+"type": "PublicTransport",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 270,
+"start": 192,
+"end": 196,
+"type": "trek",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 273,
+"start": 196,
+"end": 197,
+"type": "twowheeler",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 274,
+"start": 197,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 266,
+"start": 193,
+"end": 192,
+"type": "road",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 271,
+"start": 192,
+"end": 196,
+"type": "twowheeler",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 273,
+"start": 196,
+"end": 197,
+"type": "twowheeler",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 274,
+"start": 197,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 267,
+"start": 193,
+"end": 192,
+"type": "trek",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 271,
+"start": 192,
+"end": 196,
+"type": "twowheeler",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 273,
+"start": 196,
+"end": 197,
+"type": "twowheeler",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 274,
+"start": 197,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 265,
+"start": 193,
+"end": 192,
+"type": "PublicTransport",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 271,
+"start": 192,
+"end": 196,
+"type": "twowheeler",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 273,
+"start": 196,
+"end": 197,
+"type": "twowheeler",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 274,
+"start": 197,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 266,
+"start": 193,
+"end": 192,
+"type": "road",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 270,
+"start": 192,
+"end": 196,
+"type": "trek",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 272,
+"start": 196,
+"end": 197,
+"type": "trek",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 274,
+"start": 197,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 267,
+"start": 193,
+"end": 192,
+"type": "trek",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 270,
+"start": 192,
+"end": 196,
+"type": "trek",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 272,
+"start": 196,
+"end": 197,
+"type": "trek",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 274,
+"start": 197,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 265,
+"start": 193,
+"end": 192,
+"type": "PublicTransport",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 270,
+"start": 192,
+"end": 196,
+"type": "trek",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 272,
+"start": 196,
+"end": 197,
+"type": "trek",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 274,
+"start": 197,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 266,
+"start": 193,
+"end": 192,
+"type": "road",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 271,
+"start": 192,
+"end": 196,
+"type": "twowheeler",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 272,
+"start": 196,
+"end": 197,
+"type": "trek",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 274,
+"start": 197,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 267,
+"start": 193,
+"end": 192,
+"type": "trek",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 271,
+"start": 192,
+"end": 196,
+"type": "twowheeler",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 272,
+"start": 196,
+"end": 197,
+"type": "trek",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 274,
+"start": 197,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  },
+  {
+    "distance": 37,
+    "paths": {
+"start": {
+"identity": 193,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 195,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 193,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 265,
+"start": 193,
+"end": 192,
+"type": "PublicTransport",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 192,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 271,
+"start": 192,
+"end": 196,
+"type": "twowheeler",
+"properties": {
+"name": "Rimbik-Sirikhola",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 196,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Sirikhola"
+            }
+          },
+          "relationship": {
+"identity": 272,
+"start": 196,
+"end": 197,
+"type": "trek",
+"properties": {
+"name": "Sirikhola-Gurdum",
+"winter": "true",
+"distance": 6,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 197,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "Gurdum"
+            }
+          },
+          "relationship": {
+"identity": 274,
+"start": 197,
+"end": 195,
+"type": "trek",
+"properties": {
+"name": "Gurdum-Sandakphu",
+"winter": "true",
+"distance": 12,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 195,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    }
+  }
+]

@@ -1,0 +1,34 @@
+# 1. Umieść w bazie (nazwa bucketa ma być Twoim numerem indeksu poprzedzonym literą „s”) 5 wartości, 
+# gdzie każda z nich ma być dokumentem json mającym 4 pola co najmniej dwóch różnych typów. 
+curl -i -XPUT -H 'Content-Type: application/json' -d '{"name":"Enjin", "value": 25, "valueMultiplier": 10, "updatedData": 20210506}' http://localhost:8098/buckets/s23433/keys/enj
+curl -i -XPUT -H 'Content-Type: application/json' -d '{"name":"Doge Coin", "value": 5, "valueMultiplier": 10, "updatedData": 20210506}' http://localhost:8098/buckets/s23433/keys/dgc
+curl -i -XPUT -H 'Content-Type: application/json' -d '{"name":"Bitcoin", "value": 30000, "valueMultiplier": 1, "updatedData": 20210506}' http://localhost:8098/buckets/s23433/keys/btc
+curl -i -XPUT -H 'Content-Type: application/json' -d '{"name":"Cum Rocket", "value": 4, "valueMultiplier": 100, "updatedData": 20210506}' http://localhost:8098/buckets/s23433/keys/crc
+curl -i -XPUT -H 'Content-Type: application/json' -d '{"name":"Chiliz", "value": 5, "valueMultiplier": 10, "updatedData": 20210506}' http://localhost:8098/buckets/s23433/keys/chz
+
+# 2. Pobierz z bazy jedną z dodanych przez Ciebie wartości. 
+curl -i -XPUT http://localhost:8098/buckets/s23433/keys/enj
+
+# 3. Zmodyfikuj jedną z wartości – dodając dodatkowe pole do dokumentu. 
+curl -i -XPUT -H 'Content-Type: application/json' -d '{"name":"Enjin", "value": 25, "valueMultiplier": 10, "updatedData": 20210506, "hasElonBought": "false"}' http://localhost:8098/buckets/s23433/keys/enj
+
+# 4. Zmodyfikuj jedną z wartości – usuwając jedną pole z wybranego dokumentu. 
+curl -i -XPUT -H 'Content-Type: application/json' -d '{"name":"Enjin", "value": 25, "valueMultiplier": 10, "updatedData": 20210506}' http://localhost:8098/buckets/s23433/keys/enj
+
+# 5. Zmodyfikuj jedną z wartości – zmieniając wartość jednego z pól.  
+curl -i -XPUT -H 'Content-Type: application/json' -d '{"name":"Enjin", "value": 50, "valueMultiplier": 10, "updatedData": 20210506}' http://localhost:8098/buckets/s23433/keys/enj
+
+# 6. Usuń jeden z dokumentów z bazy. 
+curl -i -XDELETE http://localhost:8098/buckets/s23433/keys/dgc
+
+# 7. Spróbuj pobrać z bazy wartość, która nie istnieje w tej bazie. 
+curl -i http://localhost:8098/buckets/s23433/keys/dgc
+
+# 8. Dodaj do bazy 1 dokument json (zawierający 1 pole), ale nie specyfikuj klucza. 
+curl -i -XPOST -H 'Content-Type: application/json' -d '{"name":"Enjin"}' http://localhost:8098/buckets/s23433/keys/enj
+
+# 9. Pobierz z bazy element z zadania 8. 
+curl -i http://localhost:8098/buckets/s23433/keys/enj
+
+# 10. Usuń z bazy element z zadania 8.
+curl -i -XDELETE http://localhost:8098/buckets/s23433/keys/enj

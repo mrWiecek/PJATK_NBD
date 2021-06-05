@@ -1,0 +1,51 @@
+// use('nbd');
+// db.people.find();
+
+// Aggregation
+// 1. Średnią wagę i wzrost osób w bazie z podziałem na płeć 
+//(tzn. osobno mężczyzn, osobno kobiet); 
+
+// db.people.aggregate(
+//     {$group: {_id: "$sex", avg_weight: {$avg: {$toDouble: "$weight"}}, avg_height: {$avg: {$toDouble: "$height"}}}},
+//     {$project: {sex: "$_id", avg_weight: "$avg_weight", avg_height: "$avg_height", _id: 0}}
+// )
+
+// 2. Łączną ilość środków pozostałych na kartach kredytowych osób w bazie, 
+//w podziale na waluty; 
+
+// db.people.aggregate(
+//     {$unwind: "$credit"},
+//     {$group: {_id: "$credit.currency", value: { $sum: {$toDouble: "$credit.balance"} }}},
+//     {$project: {currency
+//     : "$_id", amount: "value", _id: 0}}
+// )
+
+// // 3. Listę unikalnych zawodów; 
+// db.people.aggregate(
+//     {$group: {_id: null, value: {$addToSet: "$job"}}},
+//     {$project: {jobs: "$value", _id:0} }
+// )
+
+// 4. Średnie, minimalne i maksymalne BMI (waga/wzrost^2) dla osób w bazie, 
+// // w podziale na narodowości; 
+// db.people.aggregate(
+//     {$project: {
+//         "bmi": {$divide: [{$toDouble: "$weight"}, {$pow: [{$toDouble: "$height"}, 2]}]},
+//         nationality: 1
+//         }
+//     },
+//     {$group: {_id: "$nationality", avg_bmi: {$avg: "$bmi"}, max_bmi: {$max: "$bmi"}, min_bmi: {$min: "$bmi"}}, }
+// )
+
+// 5. Średnia i łączna ilość środków na kartach kredytowych kobiet narodowości polskiej 
+//w podziale na waluty.
+
+// db.people.aggregate(
+//     {$match: {nationality: {$eq: "Poland"}, sex: {$eq: "Female"}}},
+//     {$unwind: "$credit"},
+//     {$group: {
+//         _id: "$credit.currency", 
+//         average_balance: {$avg: {$toDouble: "$credit.balance"}},
+//         total_balance: {$sum: {$toDouble: "$credit.balance"}}
+//         }}
+// )
