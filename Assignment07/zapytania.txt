@@ -7,7 +7,7 @@ curl -i -XPUT -H 'Content-Type: application/json' -d '{"name":"Cum Rocket", "val
 curl -i -XPUT -H 'Content-Type: application/json' -d '{"name":"Chiliz", "value": 5, "valueMultiplier": 10, "updatedData": 20210506}' http://localhost:8098/buckets/s23433/keys/chz
 
 # 2. Pobierz z bazy jedną z dodanych przez Ciebie wartości. 
-curl -i -XPUT http://localhost:8098/buckets/s23433/keys/enj
+curl -i -XGET http://localhost:8098/buckets/s23433/keys/enj
 
 # 3. Zmodyfikuj jedną z wartości – dodając dodatkowe pole do dokumentu. 
 curl -i -XPUT -H 'Content-Type: application/json' -d '{"name":"Enjin", "value": 25, "valueMultiplier": 10, "updatedData": 20210506, "hasElonBought": "false"}' http://localhost:8098/buckets/s23433/keys/enj
